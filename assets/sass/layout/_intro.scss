@@ -1,0 +1,49 @@
+/*======================================
+//--//-->   INTRO
+======================================*/
+
+.intro {
+    height: 100vh;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%, #{fade-out($black, .6)} 100%),
+    url('../../assets/img/bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    text-align: center;
+    color: $white;
+    .intro-text {
+        padding-top: 15rem;
+        .intro-heading {
+            font-size: 62px;
+            font-weight: 700;
+            line-height: 65px;
+            margin-bottom: 25px;
+            @include heading-font;
+        }
+        .intro-lead-in {
+            font-size: 36px;
+            font-style: italic;
+            line-height: 22px;
+            margin-bottom: 25px;
+            @include heading-font;
+        }
+    }
+    @include sm {
+        .intro-text {
+            padding-right: 24px;
+            padding-left: 24px;
+            .intro-heading {
+                font-size: 50px;
+            }
+            .intro-lead-in {
+                font-size: 22px;
+            }
+        }
+    }
+    .text-slider-items {
+        display: none;
+    }
+}

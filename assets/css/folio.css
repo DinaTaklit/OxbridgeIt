@@ -1,0 +1,152 @@
+/** breakpoints**/
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  line-height: 1.75;
+}
+
+a {
+  color: #cc0000;
+}
+a:hover {
+  color: #990000;
+}
+
+.background-primary {
+  background-color: #990000;
+}
+
+.text-primary {
+  color: #cc0000 !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+#mainNav {
+  background-color: #212529;
+}
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 0;
+  background-color: #cc0000;
+  font-family: "Raleway", sans-serif;
+  outline: none;
+}
+#mainNav .navbar-brand {
+  color: #cc0000;
+  font-family: "Open Sans", sans-serif;
+}
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #990000;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #cc0000;
+}
+
+@media (min-width: 700px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 25px 0;
+  }
+}
+/*======================================
+//--//-->   INTRO
+======================================*/
+.intro {
+  height: 100vh;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.4) 100%), url("../../assets/img/bg1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.intro .intro-text {
+  padding-top: 15rem;
+}
+.intro .intro-text .intro-heading {
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 65px;
+  margin-bottom: 25px;
+  font-family: "Raleway", sans-serif;
+}
+.intro .intro-text .intro-lead-in {
+  font-size: 36px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-family: "Raleway", sans-serif;
+}
+@media (max-width: 576px) {
+  .intro .intro-text {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .intro .intro-text .intro-heading {
+    font-size: 50px;
+  }
+  .intro .intro-text .intro-lead-in {
+    font-size: 22px;
+  }
+}
+.intro .text-slider-items {
+  display: none;
+}
+
+/*# sourceMappingURL=folio.css.map */

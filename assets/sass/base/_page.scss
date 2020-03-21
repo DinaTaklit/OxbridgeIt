@@ -1,0 +1,38 @@
+// Global styling for this template
+body {
+    overflow-x: hidden;
+    @include body-font;
+}
+
+p {
+    line-height: 1.75;
+}
+
+a {
+    color: $primary;
+    &:hover {
+        color: darken($primary, 10%);
+    }
+}
+
+.background-primary {
+    background-color: darken($primary, 10%);
+}
+
+.text-primary {
+    color: $primary !important;
+}
+
+.text-white {
+    color: $white !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    @include heading-font;
+}

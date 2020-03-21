@@ -1,0 +1,17 @@
+$primary: #cc0000 !default;
+$white: #fff !default;
+$black: #000 !default;
+// Restated Bootstrap Variables
+$gray-900: #212529 !default;
+$gray-200: #e9ecef !default;
+
+/** breakpoints**/
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-max: 576px;
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+// Tablets and small desktops
+$screen-lg-min: 992px;
+// Large tablets and desktops
+$screen-xl-min: 1200px;
