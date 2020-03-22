@@ -1,4 +1,10 @@
 /** breakpoints**/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
@@ -8,11 +14,12 @@ p {
   line-height: 1.75;
 }
 
-a {
+a * {
   color: #ff5821;
 }
-a:hover {
+a *:hover {
   color: #ed3b00;
+  text-decoration: none;
 }
 
 .background-primary {
@@ -41,11 +48,14 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  height: 5vh;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.8) 40%);
   font-size: 14px;
   color: rgba(255, 255, 255, 0.8);
-  padding-top: 6px;
+}
+#topbar .container {
+  height: 4.2vh;
+  width: 100%;
+  padding: 2px;
 }
 #topbar .contact-info .icofont-phone {
   padding-left: 20px;
@@ -57,7 +67,8 @@ h6 {
   transition: 0.3s;
 }
 #topbar .contact-info a:hover {
-  color: #428bca;
+  text-decoration: none;
+  color: #ff5821;
 }
 #topbar .contact-info i {
   color: #ff5821;
@@ -66,21 +77,16 @@ h6 {
 #topbar .social-links a {
   cursor: pointer;
   color: rgba(255, 255, 255, 0.8);
-  padding: 4px 12px;
+  padding: 0 12px;
   display: inline-block;
   line-height: 1px;
   transition: 0.3s;
 }
 #topbar .social-links a:hover {
-  color: #428bca;
-}
-
-#header {
-  height: 12vh;
+  text-decoration: none;
 }
 
 #mainNav {
-  margin-top: 16px;
   background-color: #212529;
 }
 #mainNav .navbar-toggler {
@@ -115,13 +121,14 @@ h6 {
 
 @media (min-width: 700px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: #fff;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -149,7 +156,7 @@ h6 {
 //--//-->   INTRO
 ======================================*/
 .intro {
-  height: 82.9vh;
+  height: 120vh;
   text-align: center;
   color: white;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.7) 100%), url("../../assets/img/bg1.jpg");

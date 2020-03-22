@@ -1,12 +1,16 @@
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-#topbar {
-    height: 5vh;
+#topbar { 
     background: linear-gradient(to bottom, #{fade-out($black, .3)} 0%, #{fade-out($black, .2)} 40%);
     font-size: 14px;
     color: rgba(255, 255, 255, 0.8);
-    padding-top: 6px;
+    //padding-top: 6px;
+    .container{
+        height: 4.2vh;
+        width: 100%;
+        padding: 2px;
+    }
     .contact-info {
         .icofont-phone {
               padding-left: 20px;
@@ -15,11 +19,13 @@
         a{
             line-height: 1;
             color: rgba(255, 255, 255, 0.8);
-            transition: 0.3s;
+            transition: 0.3s;          
         }
-        a:hover {
-              color: #428bca;
+        a:hover{
+            text-decoration: none;
+            color: #ff5821;
         }
+
         i{
            
             color: #ff5821;
@@ -31,14 +37,15 @@
         a {
             cursor: pointer;
             color: rgba(255, 255, 255, 0.8);
-            padding: 4px 12px;
+            padding: 0 12px;
             display: inline-block;
             line-height: 1px;
-            transition: 0.3s;
+            transition: 0.3s;   
         }
-        a:hover {
-              color: #428bca;
+        a:hover{
+            text-decoration: none;
         }
+
     }
   }
   
