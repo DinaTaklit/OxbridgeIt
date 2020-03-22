@@ -3,7 +3,7 @@
 ======================================*/
 
 .intro {
-    height: 89vh;
+    height: 88vh;
     text-align: center;
     color: white;
     background: linear-gradient(to bottom, #{fade-out($black, .4)} 0%, #{fade-out($black, .3)} 100%),
@@ -15,24 +15,25 @@
     text-align: center;
     color: $white;
     .intro-text {
-        padding-top: 8rem;
+        padding-top: 12rem;
         .intro-heading {
-            font-size: 62px;
+            font-size: 52px;
             font-weight: 700;
-            line-height: 65px;
-            margin-bottom: 50px;
+            line-height: 50px;
+            margin-bottom: 40px;
             @include heading-font;
         }
         .intro-lead-in span {
-            font-size: 32px;
+            font-size: 28px;
             font-style: italic;
-            line-height: 50px;
+            line-height: 40px;
             margin-bottom: 25px;
             @include heading-font;
         }
     }
     @include sm {
-        .intro-text {
+        .intro-text {   
+            padding-top: 8rem;
             padding-right: 24px;
             padding-left: 24px;
             .intro-heading {

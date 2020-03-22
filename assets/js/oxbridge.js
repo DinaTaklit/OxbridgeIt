@@ -10,16 +10,27 @@
         cursor: false  
       }).go();
       
-
-
+      // Check the window on resize to fix the navbar in top 
+      $(window).on('resize', function(){
+        var win = $(this); //this = window
+        if (win.width() <= 800) {
+          $("#mainNav").css({"top": "0"});
+        }
+        else 
+          if ($(window).scrollTop()> $('#topbar').height()/6)
+              $("#mainNav").css({"top": "0vh"});
+          else
+              $("#mainNav").css({"top": "5vh"});
+      });
       // Add the fixed top after a scroll 
       $(window).scroll(function (event) {
         var scroll = $(window).scrollTop();
-        var topbar_height = $('#topbar').height();
+        var topbar_height = $('#topbar').height()/6;
         if(scroll>topbar_height)
           $("#mainNav").css({"top": "0"});
         else 
-          $("#mainNav").css({"top": "4vh"});
+          $("#mainNav").css({"top": "5vh"});
+        
     });
 
       // Smooth scrolling using jQuery easing
