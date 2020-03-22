@@ -10,24 +10,16 @@
         cursor: false  
       }).go();
       
-     // Check the window on resize to add fixed top to avoid the problem related to width of the nav 
-      $(window).on('resize', function(){
-        var win = $(this); //this = window
-        if (win.width() <= 700) {
-          $("#mainNav").addClass("fixed-top");
-        }
-        else 
-         $("#mainNav").removeClass("fixed-top");
-      });
+
 
       // Add the fixed top after a scroll 
       $(window).scroll(function (event) {
         var scroll = $(window).scrollTop();
         var topbar_height = $('#topbar').height();
         if(scroll>topbar_height)
-          $("#mainNav").addClass("fixed-top");
+          $("#mainNav").css({"top": "0"});
         else 
-          $("#mainNav").removeClass("fixed-top");
+          $("#mainNav").css({"top": "4vh"});
     });
 
       // Smooth scrolling using jQuery easing
@@ -52,7 +44,6 @@
       // Collapse Navbar
       var navbarCollapse = function() {
         if ($("#mainNav").offset().top > 100) {
-          console.log("Here we are ");
             $("#mainNav").addClass("navbar-shrink");
         } else {
             $("#mainNav").removeClass("navbar-shrink");
