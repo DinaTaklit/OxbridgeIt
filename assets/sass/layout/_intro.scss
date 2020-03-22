@@ -3,10 +3,10 @@
 ======================================*/
 
 .intro {
-    height: 100vh;
+    height: 82.9vh;
     text-align: center;
     color: white;
-    background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%, #{fade-out($black, .6)} 100%),
+    background: linear-gradient(to bottom, #{fade-out($black, .4)} 0%, #{fade-out($black, .3)} 100%),
     url('../../assets/img/bg1.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -15,18 +15,18 @@
     text-align: center;
     color: $white;
     .intro-text {
-        padding-top: 15rem;
+        padding-top: 8rem;
         .intro-heading {
             font-size: 62px;
             font-weight: 700;
             line-height: 65px;
-            margin-bottom: 25px;
+            margin-bottom: 50px;
             @include heading-font;
         }
-        .intro-lead-in {
-            font-size: 36px;
+        .intro-lead-in span {
+            font-size: 32px;
             font-style: italic;
-            line-height: 22px;
+            line-height: 50px;
             margin-bottom: 25px;
             @include heading-font;
         }
@@ -42,8 +42,5 @@
                 font-size: 22px;
             }
         }
-    }
-    .text-slider-items {
-        display: none;
     }
 }

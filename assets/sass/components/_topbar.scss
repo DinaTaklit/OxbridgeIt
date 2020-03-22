@@ -1,0 +1,47 @@
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+    height: 5vh;
+    background: linear-gradient(to bottom, #{fade-out($black, .3)} 0%, #{fade-out($black, .2)} 40%);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 6px;
+    .contact-info {
+        .icofont-phone {
+              padding-left: 20px;
+              margin-left: 10px;
+        }
+        a{
+            line-height: 1;
+            color: rgba(255, 255, 255, 0.8);
+            transition: 0.3s;
+        }
+        a:hover {
+              color: #428bca;
+        }
+        i{
+           
+            color: #ff5821;
+            padding-right: 4px;
+        }
+    }
+    .social-links{
+      
+        a {
+            cursor: pointer;
+            color: rgba(255, 255, 255, 0.8);
+            padding: 4px 12px;
+            display: inline-block;
+            line-height: 1px;
+            transition: 0.3s;
+        }
+        a:hover {
+              color: #428bca;
+        }
+    }
+  }
+  
+
+
+

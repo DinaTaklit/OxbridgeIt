@@ -9,18 +9,18 @@ p {
 }
 
 a {
-  color: #cc0000;
+  color: #ff5821;
 }
 a:hover {
-  color: #990000;
+  color: #ed3b00;
 }
 
 .background-primary {
-  background-color: #990000;
+  background-color: #ed3b00;
 }
 
 .text-primary {
-  color: #cc0000 !important;
+  color: #ff5821 !important;
 }
 
 .text-white {
@@ -37,7 +37,50 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+  height: 5vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.8) 40%);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 6px;
+}
+#topbar .contact-info .icofont-phone {
+  padding-left: 20px;
+  margin-left: 10px;
+}
+#topbar .contact-info a {
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.8);
+  transition: 0.3s;
+}
+#topbar .contact-info a:hover {
+  color: #428bca;
+}
+#topbar .contact-info i {
+  color: #ff5821;
+  padding-right: 4px;
+}
+#topbar .social-links a {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 4px 12px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+#topbar .social-links a:hover {
+  color: #428bca;
+}
+
+#header {
+  height: 12vh;
+}
+
 #mainNav {
+  margin-top: 16px;
   background-color: #212529;
 }
 #mainNav .navbar-toggler {
@@ -47,27 +90,27 @@ h6 {
   text-transform: uppercase;
   color: #fff;
   border: 0;
-  background-color: #cc0000;
+  background-color: #ff5821;
   font-family: "Raleway", sans-serif;
   outline: none;
 }
 #mainNav .navbar-brand {
-  color: #cc0000;
+  color: #ff5821;
   font-family: "Open Sans", sans-serif;
 }
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #990000;
+  color: #ed3b00;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: white;
+  color: #212529;
   font-family: "Raleway", sans-serif;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #cc0000;
+  color: #ff5821;
 }
 
 @media (min-width: 700px) {
@@ -89,7 +132,8 @@ h6 {
     transition: color 0.3s ease;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    padding: 1.1em 1em !important;
+    padding: 1.2em 1em !important;
+    font-weight: 600;
   }
   #mainNav.navbar-shrink {
     padding-top: 0;
@@ -105,10 +149,10 @@ h6 {
 //--//-->   INTRO
 ======================================*/
 .intro {
-  height: 100vh;
+  height: 82.9vh;
   text-align: center;
   color: white;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.4) 100%), url("../../assets/img/bg1.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.7) 100%), url("../../assets/img/bg1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -117,19 +161,19 @@ h6 {
   color: #fff;
 }
 .intro .intro-text {
-  padding-top: 15rem;
+  padding-top: 8rem;
 }
 .intro .intro-text .intro-heading {
   font-size: 62px;
   font-weight: 700;
   line-height: 65px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   font-family: "Raleway", sans-serif;
 }
-.intro .intro-text .intro-lead-in {
-  font-size: 36px;
+.intro .intro-text .intro-lead-in span {
+  font-size: 32px;
   font-style: italic;
-  line-height: 22px;
+  line-height: 50px;
   margin-bottom: 25px;
   font-family: "Raleway", sans-serif;
 }
@@ -144,9 +188,6 @@ h6 {
   .intro .intro-text .intro-lead-in {
     font-size: 22px;
   }
-}
-.intro .text-slider-items {
-  display: none;
 }
 
 /*# sourceMappingURL=folio.css.map */
