@@ -1,6 +1,9 @@
 
 (function($) {
     "use strict"; // Start of use strict
+    // Init aos animation 
+ 
+
 
     /*--/ Star Typed /--*/
     new TypeIt('.text-slider-items', {
@@ -62,5 +65,6 @@
     };
      // Collapse now if page is not at top
     navbarCollapse();
+    AOS.init();
 
 })(jQuery); // End of use strict
