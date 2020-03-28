@@ -537,5 +537,47 @@ img::-moz-selection {
     opacity: 0;
   }
 }
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+#services {
+  padding: 60px 0;
+}
+#services a.services-icon {
+  color: #343a40;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+#services a.services-icon i {
+  color: #495057;
+}
+#services .section-headline .services-head > h2 {
+  margin-bottom: 25px;
+}
+#services .services-details {
+  padding-top: 40px;
+  transition: all 0.5s ease 0s;
+}
+#services .services-details:hover h4, #services .services-details:hover .services-icon i {
+  color: #ff5821;
+}
+#services .row .second-row {
+  margin-top: 40px;
+}
+#services .section-head > h2 {
+  color: #495057;
+}
+#services .single-services > h4 {
+  color: #495057;
+  font-size: 24px;
+  font-weight: 500;
+}
+#services .single-services > p {
+  color: #212529;
+  font-size: 14px;
+}
 
 /*# sourceMappingURL=folio.css.map */
