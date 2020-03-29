@@ -542,6 +542,23 @@ img::-moz-selection {
 --------------------------------------------------------------*/
 #partners {
   padding: 60px 0;
+  background: url("../../assets/img/partners-bg.jpg") center top no-repeat fixed;
+  background-size: cover;
+  position: relative;
+}
+#partners::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.92);
+  z-index: 9;
+}
+#partners .container {
+  position: relative;
+  z-index: 10;
 }
 #partners .owl-item {
   display: flex;
