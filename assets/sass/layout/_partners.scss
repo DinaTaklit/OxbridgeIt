@@ -20,41 +20,47 @@
     .container {
         position: relative;
         z-index: 10;
-    }  
-    .owl-item{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0 20px;
-        img {
-            width: 75%;
-            height: 55px;
-            opacity: 0.5;
-            transition: ease-in-out 0.3s;
-            -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-        &:hover{
-                -webkit-filter: none;
-                filter: none;
-                opacity: 1;
+        .section-headline{
+            h2 {
+                margin-bottom: 50px;
+                color: $gray-800;
+            }
+        } 
+        .owl-item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+            img {
+                width: 75%;
+                height: 55px;
+                opacity: 0.5;
+                transition: ease-in-out 0.3s;
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+            &:hover{
+                    -webkit-filter: none;
+                    filter: none;
+                    opacity: 1;
+                }
             }
         }
-    }
-    .owl-nav, .owl-dots {
-        margin-top: 10px;
-        text-align: center;
-    }
-    .owl-dot {
-        display: inline-block;
-        margin: 0 5px;
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background-color: #ddd !important;
-    }
-    .owl-dot.active {
-        background-color: #ff5821 !important;
-    }
+        .owl-nav, .owl-dots {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .owl-dot {
+            display: inline-block;
+            margin: 0 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #ddd !important;
+        }
+        .owl-dot.active {
+            background-color: #ff5821 !important;
+        }
+    } 
 }
 
 
