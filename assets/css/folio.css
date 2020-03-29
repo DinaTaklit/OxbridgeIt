@@ -540,9 +540,10 @@ img::-moz-selection {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-#services {
-  padding: 60px 0;
+.area-padding {
+  padding: 70px 0px 80px;
 }
+
 #services a.services-icon {
   color: #343a40;
   text-decoration: none;
