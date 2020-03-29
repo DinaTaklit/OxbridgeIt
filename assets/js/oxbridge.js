@@ -77,7 +77,23 @@
   // triger the counter up function it has nothing to do with fixed top 
   counter_up();
 
-
+  // Partners Carousel 
+  $(".partners-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+      900: {
+        items: 5
+      }
+    }
+  });
 
 
 })(jQuery); // End of use strict
