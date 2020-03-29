@@ -66,5 +66,18 @@
      // Collapse now if page is not at top
     navbarCollapse();
     AOS.init();
+    
+  // Counter up 
+  function counter_up(){
+    $('[data-toggle="counter-up"]').counterUp({
+      delay: 10,
+      time: 1000
+    });
+  }
+  // triger the counter up function it has nothing to do with fixed top 
+  counter_up();
+
+
+
 
 })(jQuery); // End of use strict
