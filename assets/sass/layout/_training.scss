@@ -47,6 +47,9 @@
             &:hover img{
                 transform: scale(1.2);
             }
+            img{
+                max-height: 160px;
+            }
         }
     }  
 }

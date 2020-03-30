@@ -739,5 +739,8 @@ img::-moz-selection {
 .it-training .cards-wrapper .formation-logo:hover img {
   transform: scale(1.2);
 }
+.it-training .cards-wrapper .formation-logo img {
+  max-height: 160px;
+}
 
 /*# sourceMappingURL=folio.css.map */
