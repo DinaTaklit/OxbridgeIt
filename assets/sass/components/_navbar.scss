@@ -80,7 +80,7 @@
     left: -260px;
     width: 260px;
     padding-top: 18px;
-    background: #1e4356;
+    background: darken($primary, 20%);
     transition: 0.4s;
     & *{
         margin: 0;
@@ -139,7 +139,7 @@
     cursor: pointer;
     text-align: right;
     i {
-        color: #fff;
+        color: $white;
     }
 }
 .mobile-nav-overly {
@@ -149,7 +149,8 @@
     top: 0;
     left: 0;
     position: fixed;
-    background: rgba(30, 67, 86, 0.9);
+    background: $gray-900;
+    opacity: 0.85;
     overflow: hidden;
     display: none;
 }
@@ -161,7 +162,7 @@
     }
     .mobile-nav-toggle {
         i {
-            color: #fff;
+            color: $white;
         }
     } 
 }

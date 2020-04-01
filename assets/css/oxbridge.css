@@ -159,7 +159,7 @@ img::-moz-selection {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: #1e4356;
+  background: #ba2e00;
   transition: 0.4s;
 }
 .mobile-nav * {
@@ -224,7 +224,8 @@ img::-moz-selection {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(30, 67, 86, 0.9);
+  background: #212529;
+  opacity: 0.85;
   overflow: hidden;
   display: none;
 }
