@@ -2,46 +2,46 @@
 //--//-->   INTRO
 ======================================*/
 
-.intro {
-    height: 88vh;
-    text-align: center;
-    color: white;
-    background: linear-gradient(to bottom, #{fade-out($black, .4)} 0%, #{fade-out($black, .3)} 100%),
-    url('../../assets/img/bg1.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    text-align: center;
-    color: $white;
-    .intro-text {
-        padding-top: 12rem;
-        .intro-heading {
-            font-size: 52px;
-            font-weight: 700;
-            line-height: 50px;
-            margin-bottom: 40px;
-            @include heading-font;
-        }
-        .intro-lead-in span {
-            font-size: 28px;
-            font-style: italic;
-            line-height: 40px;
-            margin-bottom: 25px;
-            @include heading-font;
-        }
-    }
-    @include sm {
-        .intro-text {   
-            padding-top: 8rem;
-            padding-right: 24px;
-            padding-left: 24px;
-            .intro-heading {
-                font-size: 50px;
-            }
-            .intro-lead-in {
-                font-size: 22px;
-            }
-        }
-    }
-}
+// .intro {
+//     height: 88vh;
+//     text-align: center;
+//     color: white;
+//     background: linear-gradient(to bottom, #{fade-out($black, .4)} 0%, #{fade-out($black, .3)} 100%),
+//     url('../../assets/img/bg1.jpg');
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-attachment: scroll;
+//     background-size: cover;
+//     text-align: center;
+//     color: $white;
+//     .intro-text {
+//         padding-top: 12rem;
+//         .intro-heading {
+//             font-size: 52px;
+//             font-weight: 700;
+//             line-height: 50px;
+//             margin-bottom: 40px;
+//             @include heading-font;
+//         }
+//         .intro-lead-in span {
+//             font-size: 28px;
+//             font-style: italic;
+//             line-height: 40px;
+//             margin-bottom: 25px;
+//             @include heading-font;
+//         }
+//     }
+//     @include sm {
+//         .intro-text {   
+//             padding-top: 8rem;
+//             padding-right: 24px;
+//             padding-left: 24px;
+//             .intro-heading {
+//                 font-size: 50px;
+//             }
+//             .intro-lead-in {
+//                 font-size: 22px;
+//             }
+//         }
+//     }
+// }

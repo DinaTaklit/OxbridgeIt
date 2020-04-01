@@ -1,59 +1,59 @@
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-#topbar { 
-    background: linear-gradient(to bottom, #{fade-out($black, .3)} 0%, #{fade-out($black, .2)} 40%);
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.8);
-    .container{
-        height: 5vh;
-        width: 100%;
-        padding: 2px;
-    }
-    .contact-info {
-        .icofont-phone {
-              padding-left: 20px;
-              margin-left: 10px;
-        }
-        a{
-            // line-height: 1;
-            color: rgba(255, 255, 255, 0.8);
-            transition: 0.3s;          
-        }
-        a:hover{
-            text-decoration: none;
-            color: $primary;
-        }
+// #topbar { 
+//     background: linear-gradient(to bottom, #{fade-out($black, .3)} 0%, #{fade-out($black, .2)} 40%);
+//     font-size: 14px;
+//     color: rgba(255, 255, 255, 0.8);
+//     .container{
+//         height: 5vh;
+//         width: 100%;
+//         padding: 2px;
+//     }
+//     .contact-info {
+//         .icofont-phone {
+//               padding-left: 20px;
+//               margin-left: 10px;
+//         }
+//         a{
+//             // line-height: 1;
+//             color: rgba(255, 255, 255, 0.8);
+//             transition: 0.3s;          
+//         }
+//         a:hover{
+//             text-decoration: none;
+//             color: $primary;
+//         }
 
-        i{
+//         i{
            
-            color: $primary;
-            padding-right: 4px;
-        }
-    }
-    .social-links{
+//             color: $primary;
+//             padding-right: 4px;
+//         }
+//     }
+//     .social-links{
       
-        a {
-            cursor: pointer;
-            padding: 0 12px;
-            display: inline-block;
-            line-height: 1px;
-            transition: 0.3s;   
-            i{
-                color: rgba(255, 255, 255, 0.8);
-            }
-        }
-        a:hover{
-            text-decoration: none;
-        }
+//         a {
+//             cursor: pointer;
+//             padding: 0 12px;
+//             display: inline-block;
+//             line-height: 1px;
+//             transition: 0.3s;   
+//             i{
+//                 color: rgba(255, 255, 255, 0.8);
+//             }
+//         }
+//         a:hover{
+//             text-decoration: none;
+//         }
     
-        a:hover i{
-            text-decoration: none;
-            color: $primary;
-        }
+//         a:hover i{
+//             text-decoration: none;
+//             color: $primary;
+//         }
 
-    }
-  }
+//     }
+//   }
   
 
 
