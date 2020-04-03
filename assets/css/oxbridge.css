@@ -884,6 +884,56 @@ img::-moz-selection {
 }
 
 /*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+#network .section-headline > h2 {
+  margin-bottom: 20px;
+  color: #495057;
+}
+#network .section-headline p {
+  margin-bottom: 50px;
+}
+#network .sub-services-details {
+  transition: all 0.5s ease 0s;
+  padding: 40px 20px 0;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+  position: relative;
+}
+#network .single-sub-services > p {
+  color: #212529;
+  font-size: 14px;
+}
+#network .single-sub-services .icon {
+  position: absolute;
+  top: -30px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  background: #ff5821;
+}
+#network .single-sub-services .icon i {
+  color: #fff;
+  font-size: 24px;
+}
+#network .single-sub-services:hover .icon {
+  background: #fff;
+  border: 2px solid #ff5821;
+}
+#network .single-sub-services:hover .icon i {
+  color: #ff5821;
+}
+
+/*--------------------------------------------------------------
 # It training
 --------------------------------------------------------------*/
 .it-training {
