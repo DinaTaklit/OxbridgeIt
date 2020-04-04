@@ -1026,6 +1026,97 @@ img::-moz-selection {
   }
 }
 /*--------------------------------------------------------------
+# Info Box
+--------------------------------------------------------------*/
+#website .section-headline > h2 {
+  margin-bottom: 50px;
+  color: #495057;
+}
+
+.info-box .img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 250px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+.info-box .accordion-list {
+  padding: 40px 100px 60px 100px;
+}
+.info-box .accordion-list ul {
+  padding: 0;
+  list-style: none;
+}
+.info-box .accordion-list li + li {
+  margin-top: 15px;
+}
+.info-box .accordion-list li {
+  padding: 20px;
+  background: #f2f5f4;
+  border-radius: 5px;
+}
+.info-box .accordion-list li h4 {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-right: 30px;
+  outline: none;
+  transition: ease-in-out 0.3s;
+}
+.info-box .accordion-list li h4:hover {
+  color: #ff5821;
+}
+.info-box .accordion-list li h4 span {
+  color: #ff5821;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 10px;
+}
+.info-box .accordion-list li h4 i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.info-box .accordion-list li p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+.info-box .accordion-list li .icon-show {
+  display: none;
+}
+.info-box .accordion-list h4.collapsed {
+  color: #343a40;
+}
+.info-box .accordion-list h4.collapsed:hover {
+  color: #ff5821;
+}
+.info-box .accordion-list h4.collapsed .icon-show {
+  display: inline-block;
+}
+.info-box .accordion-list h4.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .info-box .content, .info-box .accordion-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 992px) {
+  .info-box .content {
+    padding-top: 30px;
+  }
+  .info-box .accordion-list {
+    padding-bottom: 30px;
+  }
+}
+/*--------------------------------------------------------------
 # It training
 --------------------------------------------------------------*/
 .it-training {
