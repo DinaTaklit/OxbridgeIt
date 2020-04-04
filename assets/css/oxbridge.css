@@ -1117,6 +1117,32 @@ img::-moz-selection {
   }
 }
 /*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+#virtualization .section-headline > h2 {
+  margin-bottom: 25px;
+  color: #495057;
+}
+#virtualization img {
+  max-height: 280px;
+}
+#virtualization p {
+  margin-bottom: 35px;
+}
+#virtualization ul {
+  list-style: none;
+  padding: 0;
+}
+#virtualization ul li {
+  padding-bottom: 10px;
+}
+#virtualization ul li i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #ff5821;
+}
+
+/*--------------------------------------------------------------
 # It training
 --------------------------------------------------------------*/
 .it-training {
