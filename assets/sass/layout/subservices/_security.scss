@@ -83,17 +83,24 @@
 }
 
 @media (min-width: 992px) {
-  .icon-box{
-    height: 340px;
+  #security{
+    .icon-box{
+      height: 340px;
+    }
   }
+  
 }
 @media (max-width: 991px) {
-  .icon-box{
-    height: 280px;
+  #security{
+    .icon-box{
+      height: 280px;
+    }
   }
 }
 @media (max-width: 767px) {
-  .icon-box{
-    height: auto;
+  #security{
+    .icon-box{
+      height: auto;
+    }
   }
 }

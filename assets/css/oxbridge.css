@@ -1011,17 +1011,17 @@ img::-moz-selection {
 }
 
 @media (min-width: 992px) {
-  .icon-box {
+  #security .icon-box {
     height: 340px;
   }
 }
 @media (max-width: 991px) {
-  .icon-box {
+  #security .icon-box {
     height: 280px;
   }
 }
 @media (max-width: 767px) {
-  .icon-box {
+  #security .icon-box {
     height: auto;
   }
 }
