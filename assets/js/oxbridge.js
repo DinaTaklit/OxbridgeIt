@@ -59,8 +59,50 @@
   }
 
 
-   // Activate scrollspy to add active class to navbar items on scroll
-   $('body').scrollspy({
+  // Smooth scroll for the navigation menu and links with .scrollto classes
+  $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      e.preventDefault();
+      var target = $(this.hash);
+      if (target.length) {
+
+        var scrollto = target.offset().top;
+        var scrolled = 20;
+
+        if ($('#header').length) {
+          scrollto -= $('#header').outerHeight()
+
+          if (!$('#header').hasClass('header-scrolled')) {
+            scrollto += scrolled;
+          }
+        }
+
+        if ($(this).attr("href") == '#header') {
+          scrollto = 0;
+        }
+
+        $('html, body').animate({
+          scrollTop: scrollto
+        }, 1500, 'easeInOutExpo');
+
+        if ($(this).parents('.nav-menu, .mobile-nav').length) {
+          $('.nav-menu .active, .mobile-nav .active').removeClass('active');
+          $(this).closest('li').addClass('active');
+        }
+
+        if ($('body').hasClass('mobile-nav-active')) {
+          $('body').removeClass('mobile-nav-active');
+          $('.mobile-nav-toggle i').toggleClass('bx-menu bx-x');
+          $('.mobile-nav-overly').fadeOut();
+        }
+        return false;
+      }
+    }
+  });
+
+
+  //  Activate scrollspy to add active class to navbar items on scroll
+  $('body').scrollspy({
     target: '#mainNav',
     offset: 56
   });
@@ -74,23 +116,6 @@
     $(this).find('p').addClass('animated fadeInUp');
     $(this).find('.btn-get-started').addClass('animated fadeInUp');
   });
-
-
-      // Smooth scrolling using jQuery easing
-      $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html, body').animate({
-                    scrollTop: (target.offset().top - 54)
-                }, 1000, "easeInOutExpo");
-                return false;
-            }
-        }
-    });
-
-
 
 
 
