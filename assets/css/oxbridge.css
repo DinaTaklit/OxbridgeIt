@@ -107,9 +107,8 @@ img::-moz-selection {
   padding: 10px 15px;
   transition: 0.3s;
 }
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a.active, .nav-menu a:hover {
   color: #ff5821;
-  text-decoration: none;
 }
 .nav-menu .drop-down ul {
   display: block;
@@ -135,7 +134,7 @@ img::-moz-selection {
   text-transform: none;
   color: #495057;
 }
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+.nav-menu .drop-down ul li a.active, .nav-menu .drop-down ul li a:hover {
   color: #ff5821;
 }
 .nav-menu .drop-down:hover > ul {

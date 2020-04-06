@@ -21,12 +21,12 @@
         color: $white;
         padding: 10px 15px;
         transition: 0.3s;
-        // font-size: 14px;
+        &.active,
+        &:hover {
+            color: $primary;
+        }
     }
-    a:hover, .active > a, li:hover > a {
-        color: $primary;
-        text-decoration: none;
-    }
+
     .drop-down{
         ul {
             display: block;
@@ -49,10 +49,11 @@
                     font-weight: 500;
                     text-transform: none;
                     color: $gray-700;
+                    &.active,
+                    &:hover {
+                        color: $primary;
+                    }
                 }
-            }
-            a:hover, .active > a, li:hover > a{
-                color: $primary;
             }
         }
         &:hover > ul {
