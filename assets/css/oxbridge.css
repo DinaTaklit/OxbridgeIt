@@ -880,7 +880,7 @@ img::-moz-selection {
   margin-bottom: 50px;
 }
 
-.info-box .img {
+#website.info-box .img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -888,23 +888,23 @@ img::-moz-selection {
   margin-bottom: 30px;
   border-radius: 12px;
 }
-.info-box .accordion-list {
+#website.info-box .accordion-list {
   padding: 40px 100px 60px 100px;
 }
-.info-box .accordion-list ul {
+#website.info-box .accordion-list ul {
   padding: 0;
   list-style: none;
 }
-.info-box .accordion-list li + li {
+#website.info-box .accordion-list li + li {
   margin-top: 15px;
 }
-.info-box .accordion-list li {
+#website.info-box .accordion-list li {
   cursor: pointer;
   padding: 20px;
   background: #f2f5f4;
   border-radius: 5px;
 }
-.info-box .accordion-list li h4 {
+#website.info-box .accordion-list li h4 {
   display: block;
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -915,38 +915,38 @@ img::-moz-selection {
   outline: none;
   transition: ease-in-out 0.3s;
 }
-.info-box .accordion-list li h4:hover {
+#website.info-box .accordion-list li h4:hover {
   color: #ff5821;
 }
-.info-box .accordion-list li h4 span {
+#website.info-box .accordion-list li h4 span {
   color: #ff5821;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
 }
-.info-box .accordion-list li h4 i {
+#website.info-box .accordion-list li h4 i {
   font-size: 24px;
   position: absolute;
   right: 0;
   top: 0;
 }
-.info-box .accordion-list li p {
+#website.info-box .accordion-list li p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
 }
-.info-box .accordion-list li .icon-show {
+#website.info-box .accordion-list li .icon-show {
   display: none;
 }
-.info-box .accordion-list h4.collapsed {
+#website.info-box .accordion-list h4.collapsed {
   color: #212529;
 }
-.info-box .accordion-list h4.collapsed:hover {
+#website.info-box .accordion-list h4.collapsed:hover {
   color: #ff5821;
 }
-.info-box .accordion-list h4.collapsed .icon-show {
+#website.info-box .accordion-list h4.collapsed .icon-show {
   display: inline-block;
 }
-.info-box .accordion-list h4.collapsed .icon-close {
+#website.info-box .accordion-list h4.collapsed .icon-close {
   display: none;
 }
 
