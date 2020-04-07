@@ -3,13 +3,13 @@
 --------------------------------------------------------------*/
 #virtualization{
     .section-headline{
-        & > h2 {
-            margin-bottom: 25px;
-            color: $gray-700;
+        h2 {
+            margin-bottom: 40px;
         }
     }
     img {
         max-height: 280px;
+        margin-bottom: 20px;
     }
     p {
         margin-bottom: 35px;

@@ -885,7 +885,7 @@ img::-moz-selection {
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 250px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   border-radius: 12px;
 }
 #website.info-box .accordion-list {
@@ -967,12 +967,12 @@ img::-moz-selection {
 /*--------------------------------------------------------------
 # Virtulization
 --------------------------------------------------------------*/
-#virtualization .section-headline > h2 {
-  margin-bottom: 25px;
-  color: #495057;
+#virtualization .section-headline h2 {
+  margin-bottom: 40px;
 }
 #virtualization img {
   max-height: 280px;
+  margin-bottom: 20px;
 }
 #virtualization p {
   margin-bottom: 35px;
