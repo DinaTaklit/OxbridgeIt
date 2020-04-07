@@ -2,6 +2,11 @@
 # Contact
 --------------------------------------------------------------*/
 .contact {
+  .section-headline{
+      h2 {
+          margin-bottom: 40px;
+      }  
+    }
     padding-bottom: 80px;
     .info-box {
         color: $gray-900;
@@ -32,7 +37,7 @@
       .php-email-form {
         box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
         padding: 30px;
-        background: #fff;
+        background: $white;
         .validate {
             display: none;
             color: red;
@@ -42,7 +47,7 @@
           }
           .error-message {
             display: none;
-            color: #fff;
+            color: $white;
             background: #ed3c0d;
             text-align: center;
             padding: 15px;
@@ -50,15 +55,15 @@
           }
           .sent-message {
             display: none;
-            color: #fff;
-            background: #18d26e;
+            color: $white;
+            background: $primary;
             text-align: center;
             padding: 15px;
             font-weight: 600;
           }
           .loading {
             display: none;
-            background: #fff;
+            background: $white;
             text-align: center;
             padding: 15px;
           }
@@ -69,7 +74,7 @@
             width: 24px;
             height: 24px;
             margin: 0 10px -6px 0;
-            border: 3px solid #18d26e;
+            border: 3px solid $primary;
             border-top-color: #eee;
             -webkit-animation: animate-loading 1s linear infinite;
             animation: animate-loading 1s linear infinite;
@@ -90,14 +95,13 @@
                 background: $primary;
                 border: 0;
                 padding: 10px 24px;
-                color: #fff;
+                color: $white;
                 transition: 0.4s;
             }
             &[type='submit']:hover {
                 background-color: darken($primary, 8%);
               }
-          }
-         
+          } 
       }
 
   }

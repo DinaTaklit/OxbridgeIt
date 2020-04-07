@@ -415,6 +415,9 @@ img::-moz-selection {
 .contact {
   padding-bottom: 80px;
 }
+.contact .section-headline h2 {
+  margin-bottom: 40px;
+}
 .contact .info-box {
   color: #212529;
   background: #fff;
@@ -464,7 +467,7 @@ img::-moz-selection {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #ff5821;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -482,7 +485,7 @@ img::-moz-selection {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #ff5821;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -683,9 +686,6 @@ img::-moz-selection {
 }
 #services .services-details .btn:hover {
   border-color: #ff5821;
-}
-#services .section-head > h2 {
-  color: #495057;
 }
 #services .single-services > h4 {
   color: #495057;
