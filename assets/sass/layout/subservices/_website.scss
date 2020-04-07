@@ -6,10 +6,8 @@
     .section-headline{
         & > h2 {
                 margin-bottom: 50px;
-                color: $gray-700;
         }
     }
-
 }
 .info-box{
     .img {
@@ -30,6 +28,7 @@
             margin-top: 15px;
         }
         li {
+            cursor: pointer;
             padding: 20px;
             background: #f2f5f4;
             border-radius: 5px;
@@ -68,7 +67,7 @@
             }
         }
         h4.collapsed {
-            color: #343a40;
+            color: $gray-900;
             &:hover{
                 color: $primary;
             }

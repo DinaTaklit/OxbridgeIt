@@ -878,7 +878,6 @@ img::-moz-selection {
 --------------------------------------------------------------*/
 #website .section-headline > h2 {
   margin-bottom: 50px;
-  color: #495057;
 }
 
 .info-box .img {
@@ -900,6 +899,7 @@ img::-moz-selection {
   margin-top: 15px;
 }
 .info-box .accordion-list li {
+  cursor: pointer;
   padding: 20px;
   background: #f2f5f4;
   border-radius: 5px;
@@ -938,7 +938,7 @@ img::-moz-selection {
   display: none;
 }
 .info-box .accordion-list h4.collapsed {
-  color: #343a40;
+  color: #212529;
 }
 .info-box .accordion-list h4.collapsed:hover {
   color: #ff5821;
