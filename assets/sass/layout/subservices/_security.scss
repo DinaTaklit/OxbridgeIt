@@ -5,14 +5,13 @@
     .section-headline{
         & > h2 {
                 margin-bottom: 50px;
-                color: $gray-700;
         }
     }
     .icon-box {
         padding: 30px;
         position: relative;
         overflow: hidden;
-        background: #fff;
+        background: $white;
         box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
         transition: all 0.3s ease-in-out;
         border-radius: 8px;
@@ -51,7 +50,7 @@
           i{
               font-size: 36px;
               line-height: 1;
-              color: #fff;
+              color: $white;
           }
         }
         .title {
