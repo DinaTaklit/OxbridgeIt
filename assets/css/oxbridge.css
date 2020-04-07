@@ -1096,10 +1096,6 @@ img::-moz-selection {
 --------------------------------------------------------------*/
 .it-training {
   background-color: #f2f5f4;
-  padding: 60px 0;
-}
-.it-training .section-headline .services-head > h2 {
-  margin-bottom: 25px;
 }
 .it-training .cards-wrapper {
   padding-top: 40px;
